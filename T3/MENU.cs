@@ -11,9 +11,7 @@ namespace T3
         public static int Menu()
         {
             string[] Menu = { "REGISTRAR", "ASISTENCIA", "REPORTES", "SALIR" };
-
             int index = 0;
-
             ConsoleKey tecla;
 
             do
