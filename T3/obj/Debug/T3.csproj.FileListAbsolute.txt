@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\obj\Debug\T3.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\obj\Debug\T3.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\bin\Debug\T3.exe.config
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\bin\Debug\T3.exe
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\bin\Debug\T3.pdb
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\obj\Debug\T3.exe
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\obj\Debug\T3.pdb
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\T3\obj\Debug\T3.exe.config

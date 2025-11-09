@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Desktop\PROYECTO_MENU\bin\Debug\PROYECTO_MENU.exe.config
+C:\Users\User\OneDrive\Desktop\PROYECTO_MENU\bin\Debug\PROYECTO_MENU.exe
+C:\Users\User\OneDrive\Desktop\PROYECTO_MENU\bin\Debug\PROYECTO_MENU.pdb
+C:\Users\User\OneDrive\Desktop\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.exe
+C:\Users\User\OneDrive\Desktop\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.pdb
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\bin\Debug\PROYECTO_MENU.exe.config
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\bin\Debug\PROYECTO_MENU.exe
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\bin\Debug\PROYECTO_MENU.pdb
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.exe.config
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.exe
+C:\Users\User\OneDrive\Desktop\Algoritmos_T3\Complemento\PROYECTO_MENU\obj\Debug\PROYECTO_MENU.pdb
