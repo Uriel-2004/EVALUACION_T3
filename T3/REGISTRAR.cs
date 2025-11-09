@@ -8,6 +8,9 @@ namespace T3
 {
     public class REGISTRAR
     {
+        public static List<string> Dnis = new List<string>();
+        public static List<string> Nombres = new List<string>();
+
         public static void Registrar()
         {
             string[] MenuRegistrar = { "DOCENTE", "ESTUDIANTE", "CURSO", "VOLVER" };
@@ -54,11 +57,11 @@ namespace T3
             switch (indexReg)
             {
                 case 0:
-                    REGISTRAR.Docente(); break;
+                    Docente(); break;
                 case 1:
-                    REGISTRAR.Estudiante(); break;
+                    Estudiante(); break;
                 case 2:
-                    REGISTRAR.Curso(); break;
+                    Curso(); break;
                 default: return;
             }
             Console.ReadKey(true);
@@ -70,7 +73,46 @@ namespace T3
 
         public static void Estudiante()
         {
+            {
+                bool registrado = false;
 
+                do
+                {
+                    Console.Clear();
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine("--------------------------------------------------------------------------");
+                    Console.WriteLine("                     SISTEMA DE GESTIÓN DE ASISTENCIA                     ");
+                    Console.WriteLine("--------------------------------------------------------------------------");
+                    Console.ResetColor();
+                    Console.WriteLine("===== REGISTRAR ESTUDIANTE =====");
+                    Console.Write("DNI ESTUDIANTE: ");
+                    string dni = Console.ReadLine();
+
+                    if (dni.Length != 8)
+                    {
+                        Console.WriteLine("Error: El DNI debe tener exactamente 8 dígitos.");
+                        Console.ReadKey();
+                    }
+                    else if (Dnis.Contains(dni))
+                    {
+                        Console.WriteLine("Error: Este DNI ya está registrado.");
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.Write("NOMBRE ESTUDIANTE: ");
+                        string nombre = Console.ReadLine();
+
+                        Dnis.Add(dni);
+                        Nombres.Add(nombre);
+
+                        Console.WriteLine("\nSe guardó correctamente al nuevo estudiante...");
+
+                        registrado = true;
+                    }
+                } while (!registrado);
+            }
         }
 
         public static void Curso()

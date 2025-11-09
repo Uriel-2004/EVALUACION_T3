@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -52,14 +54,26 @@ namespace T3
 
             switch (indexReportes)
             {
-            case 0:
-                REGISTRAR.Docente(); break;
-            case 1:
-                REGISTRAR.Estudiante(); break;
-            case 2:
-                REGISTRAR.Curso(); break;
-            case 3: return;
+                case 0:
+                    REGISTRAR.Docente(); break;
+                case 1:
+                    if (REGISTRAR.Dnis.Count == 0)
+                    {
+                        Console.WriteLine("No hay estudiantes registrados aún.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("{0,-15} {1,-30}", "DNI", "NOMBRES");
+                        for (int i = 0; i < REGISTRAR.Dnis.Count; i++)
+                        {
+                            Console.WriteLine("{0,-15} {1,-30}", REGISTRAR.Dnis[i], REGISTRAR.Nombres[i]);
+                        }
+                    } break;
+                case 2:
+                    REGISTRAR.Curso(); break;
+                case 3: return;
             }
+
             Console.ReadKey(true);
         }
     }
