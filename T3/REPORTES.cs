@@ -55,7 +55,19 @@ namespace T3
             switch (indexReportes)
             {
                 case 0:
-                    REGISTRAR.Docente(); break;
+                    if (REGISTRAR.dnis.Count == 0)
+                    {
+                        Console.WriteLine("No hay cursos registrados aún.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("{0,-15} {1,-30}", "DNI", "NOMBRES");
+                        for (int i = 0; i < REGISTRAR.dnis.Count; i++)
+                        {
+                            Console.WriteLine("{0,-15} {1,-30}", REGISTRAR.dnis[i], REGISTRAR.nombds[i]);
+                        }
+                    }
+                    break;
                 case 1:
                     if (REGISTRAR.Dnis.Count == 0)
                     {
@@ -70,7 +82,19 @@ namespace T3
                         }
                     } break;
                 case 2:
-                    REGISTRAR.Curso(); break;
+                    if (REGISTRAR.Codigo.Count == 0)
+                    {
+                        Console.WriteLine("No hay cursos registrados aún.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("{0,-15} {1,-30} {2,-10}", "CODIGO", "NOMBRES", "PRECIO");
+                        for (int i = 0; i < REGISTRAR.Codigo.Count; i++)
+                        {
+                            Console.WriteLine("{0,-15} {1,-30} {2,-10}", REGISTRAR.Codigo[i], REGISTRAR.Nombre[i], REGISTRAR.Precio[i]);
+                        }
+                    }
+                    break;
                 case 3: return;
             }
 
